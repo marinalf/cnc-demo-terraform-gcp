@@ -50,12 +50,12 @@ variable "user_subnets" {
   default = {
     web-subnet = {
       name  = "web-subnet"
-      ip    = "172.11.3.0/24"
+      ip    = "172.11.1.0/24"
       label = "web servers"
     },
     db-subnet = {
       name  = "db-subnet"
-      ip    = "172.11.4.0/24"
+      ip    = "172.11.2.0/24"
       label = "db servers"
     }
   }
