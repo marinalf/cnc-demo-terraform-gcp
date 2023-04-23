@@ -9,7 +9,7 @@ variable "project_id" {}
 # Tenant + VRF
 
 variable "tenant_name" {
-  default = "DevNet"
+  default = "devnet"
 }
 
 # VPC Hub Peering
@@ -88,7 +88,7 @@ variable "selector_db" {
 }
 
 variable "tag_based" {
-  default = "custom:Name=='db-vm'"
+  default = "custom:name=='db-vm'"
 }
 
 variable "contract_name" {

@@ -4,7 +4,7 @@
 
 resource "aci_tenant" "terraform_ten" {
   name = var.tenant_name
-  description = "This tenant has been created by Terraform"
+  description = "Created by Terraform"
 }
 
 resource "aci_cloud_account" "cloud_provider" {

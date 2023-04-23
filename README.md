@@ -26,6 +26,8 @@ CNC running on a dedicated GCP project. All credentials and sensitive data are d
 1. Install and set up your [terraform](https://www.terraform.io/downloads.html) environment
 2. Clone/copy the .tf files (main.tf, variables.tf, and provider.tf) onto your terraform environment
 3. Create a terraform.tfvars file with your CNC credentials and GCP project used for the user project/VPC
+4. Optionally, the gcp.tf file deploys two VM instances (web-vm and db-vm) for testing purposes.
+
 
 **Usage**
 ```
@@ -33,3 +35,10 @@ terraform init
 terraform plan
 terraform apply
 ```
+**Policies**
+
+<img width="600" alt="myapp" src="images/myapp.png">
+
+**Cloud Networking**
+
+<img width="600" alt="vpc" src="images/vpc.png">
